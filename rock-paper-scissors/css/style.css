@@ -1,0 +1,60 @@
+/* need to make the images resize */
+@media screen and (max-width: 545px) {
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: "Jolly Lodger", cursive;
+  font-size: 70px;
+  color: #bceeed;
+  text-shadow: 4px 4px salmon;
+}
+
+body {
+  background-color: #eef5f6;
+}
+
+.flex-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 50px;
+  text-align: center;
+  
+}
+
+img {
+  width: 125px;
+  height: 125px;
+}
+
+span {
+  color: #eef5f6;
+}
+
+#opponent,
+#player {
+  text-align: center;
+  color: salmon;
+  font-family: "VT323";
+  font-size: 25px;
+  padding: 10px;
+}
+
+#result {
+  font-family: "VT323";
+  font-size: 50px;
+  color: #bceeed;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 3px 3px 2px #acd3d2;
+}

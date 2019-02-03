@@ -1,0 +1,133 @@
+
+
+h1 {
+  text-align:center;
+}
+
+.box {
+  text-align: center;
+/*   background: radial-gradient(#b79268 50%, #b79268 30%, white 71%); */
+  background-image: url(https://foodimentaryguy.files.wordpress.com/2012/06/potato.jpg); 
+  background-size: 800px 300px;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  padding: 40px 25px 40px 25px;
+  margin-top: 30px;
+}
+
+h2{
+  font-family: 'Bungee Shade', cursive;
+  font-size:35px;
+  border-bottom-style: dotted;
+  text-align: center;
+}
+
+h3, h4{
+  font-family: 'Bungee Shade',      cursive;
+  font-size:35px;
+  border-bottom-style: ridge;
+  border-top-style: groove;
+  border-width: 10px;
+  border-color: #E6E6FA;
+  text-align: center;
+  background-color: #b79268;
+  
+}
+
+p{
+  font-family: 'Cabin', sans-serif;
+  font-size:23px;
+}
+
+.img {
+  padding-top: 45px;
+  float: left; 
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color:white; 
+  border-width:2px;
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: #E6E6FA;
+    justify-content: center;
+    margin-top:50px;
+    
+}
+
+.flex-item1 {
+    background:linear-gradient(#9b754a, #c0a07b);
+    margin: 10px;  
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 17px;
+    
+}
+  
+.flex-container2 {
+    display: flex;
+/*     background-color: #E6E6FA;  */
+  
+}
+
+.flex-item2 {
+/*     background-color: #E6E6FA; */
+    margin: 10px;
+  }
+
+#type {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 25px;
+  text-shadow: 2px 2px 5px #B0E2D2;
+  
+}
+
+
+.desc2{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  margin-top: 10px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 23px;
+  box-shadow: 10px 10px 5px grey;
+  
+  
+}
+
+.desc{
+  float: right;
+  font-family: 'Italiana', serif;
+  font-size:18px;
+  margin-top: 20px;
+}
+
+#pp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:337px;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 50px;
+  padding-left: 60px;
+  text-shadow: 2px 4px 15px #8633FF;
+  padding-bottom:10%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
+}
+
+* {
+   cursor: url("http://orig03.deviantart.net/3f0b/f/2008/365/3/b/dancing_potato_by_sbfreak94.gif"), default;
+}
+
+

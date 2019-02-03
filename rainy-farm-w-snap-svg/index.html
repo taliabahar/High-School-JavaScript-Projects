@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rainy Farm w/ Snap.svg </title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="container" align="center">
+ 
+  <button id="sound" onclick="dirt()" class="big-button">
+  push
+  </button>
+
+  <audio  id="music" src="http://www.music-note.jp/bgm/mp3/0527/nightmare.wav" preload="auto"> </audio>
+
+  <audio loop id="rain" src="http://wavcentral.com/sounds/FX/Rainthun.mp3"></audio>
+
+  <body>
+
+    <svg id="svg">
+          <pattern id="pathPattern" x="4" y="8" width="25" height="25" patternUnits="userSpaceOnUse">
+                <path d="M 0 0 Q 5 20 10 10 T 20 20" stroke="#3F281B" fill="none" />
+          </pattern>
+  
+</svg>
+
+  </body>
+</div>
+
+ <!--   http://www.musicnote-world.com/bgm/horror.html -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
